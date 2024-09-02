@@ -141,10 +141,10 @@ conn.commit()
 ```
 Now we can save the complete tables in a new csv files using this code <br>
 ```
-query = f"SELECT * from {table}"
+query = f"SELECT * from {table}"  # remove {table} and enter which table you want to save example: aisles, departments, Products
 df = pd.read_sql(query, conn)
 #save each table to a csv file
-df.to_csv(f"choose_path/{table}.csv", index= False)
+df.to_csv(f"choose_path/{table}.csv", index= False)  # remove choose_path and enter path where you want to save the new files, remove {table} and enter a name for your table
 ```
 
 
