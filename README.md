@@ -32,13 +32,13 @@ then type these queries: <br>
 2-Select your database type, input connection config then click the connect button. <br>
 while in the connect tab enter a *Database name* **Manage_Products** and *password* you made for MySQL then click connect <br>
 you should see the connection like this: <br>
-![image](https://github.com/user-attachments/assets/b8b104ff-25b6-4e57-972b-164b64012147)
+![image](https://github.com/user-attachments/assets/b8b104ff-25b6-4e57-972b-164b64012147) <br>
 Congrats now you can use MySQL inside VS code <br>
 
 # Example:
 Now this an example on how you can work <br>
 first make a Query file in your Database using this + sign: <br>
-![Screenshot 2024-09-02 172315](https://github.com/user-attachments/assets/485bd8a0-3d90-413a-b142-1f8170695bb1)
+![Screenshot 2024-09-02 172315](https://github.com/user-attachments/assets/485bd8a0-3d90-413a-b142-1f8170695bb1) <br>
 inside Query write this line `show VARIABLES Like 'secure_file_priv';` <br>
 this code will show you the directory in which MySQL is reading from so all data that you want to upload must be in this directory <br>
 I have left sample data in these three files found in this repo **aisles.csv** , **products.csv** and **departments.csv** <br>
